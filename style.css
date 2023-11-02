@@ -47,6 +47,9 @@ button{
     border-radius: 50px;
     color: white;
 }
+button:hover{
+    cursor: pointer;
+}
 .header-button{
     font-size: 12px;
     height: 45px;
@@ -55,11 +58,13 @@ button{
 
 .container{
     margin: 100px auto 0;
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
+    overflow-x: hidden;
 
     /* border: 1px solid red; */
 }
@@ -166,6 +171,10 @@ h3{
     justify-content: space-between;
     flex-direction: column;
     gap: 100px;
+
+    /* background-image: url("assets/circleF.png");
+    background-repeat: no-repeat;
+    background-position:200% 200%; */
 }
 
 .prorec-card button{
@@ -194,6 +203,7 @@ h3{
 .prorec-lower{
     margin-top: 50px;
     width: 55%;
+    /* background-position: 115% 340%; */
 }
 
 .flex-row{
@@ -393,4 +403,27 @@ footer > h1{
     height: 150px;
     border-radius: 50%;
     filter: blur(100px);
+}
+
+.circle{
+    position: absolute;
+    top: 200px;
+    z-index: -1;
+    left: 0;
+}
+
+.circle:last-of-type{
+    left: unset;
+    right: 0;
+    transform: scaleX(-1);
+    top: 5%;
+}
+
+.testimonial{
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.branding{
+    border: 1px solid red;
 }
