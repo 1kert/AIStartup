@@ -369,6 +369,10 @@ footer .divider{
     opacity: 1;
 }
 
+.relative{
+    position: relative;
+}
+
 footer > p{
     font-size: 14px;
 }
@@ -377,4 +381,16 @@ footer > h1{
     color: white;
     margin-top: 90px;
     font-size: 48px;
+}
+
+.blur-circle{
+    position: absolute;
+    opacity: 1;
+    left: -75px;
+    top: 50%;
+    background-color: #62b0fe;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: blur(100px);
 }
