@@ -345,6 +345,10 @@ h3 {
 .footer-div > p {
   font-weight: bold;
 }
+.footer-div a {
+  text-decoration: none;
+  color: white;
+}
 
 footer .divider {
   color: white;
