@@ -59,6 +59,10 @@ button {
 	p {
 		color: white;
 	}
+
+	&:last-of-type{
+		padding-top: 10px;
+	}
 }
 .section-header {
 	height: 200px;
